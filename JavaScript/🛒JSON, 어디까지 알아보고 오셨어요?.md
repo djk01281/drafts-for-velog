@@ -1,11 +1,13 @@
 ## JSON, 어디까지 알아보고 오셨어요?
-![](https://media0.giphy.com/media/T8To8j0yy1PxGCH6Yu/giphy.gif?cid=82a1493bfkavzom1dxn5ey4y5qm8zbdc154zapynz0la2hwg&rid=giphy.gif&ct=g)JSON. 웹개발에 관심이 있다면 많이도 보고 들었을 거다. 정말 어딜가든 보이는 JSON, 그게 도대체 뭘까? 
+![](https://media0.giphy.com/media/T8To8j0yy1PxGCH6Yu/giphy.gif?cid=82a1493bfkavzom1dxn5ey4y5qm8zbdc154zapynz0la2hwg&rid=giphy.gif&ct=g)
+JSON. 웹개발에 관심이 있다면 많이도 보고 들었을 거다. 정말 어딜가든 보이는 JSON, 그게 도대체 뭘까? 
 
 <br>
 
 ## 이름이 어떻게 JSON?
 
-![](https://media2.giphy.com/media/xT9KVn8tApfgnNLpL2/giphy.gif?cid=6c09b95217b37b017d88501a1635e8b93443cec8944b0387&rid=giphy.gif&ct=g)JSON은 **JavaScript Object Notation**의 줄임말이다. Notation, 그니까 **자바스크립트의 Object 타입을 닮은 하나의 형식**이다. 닮았으니까 변환하기도 쉽다. 
+![](https://media2.giphy.com/media/xT9KVn8tApfgnNLpL2/giphy.gif?cid=6c09b95217b37b017d88501a1635e8b93443cec8944b0387&rid=giphy.gif&ct=g)
+JSON은 **JavaScript Object Notation**의 줄임말이다. Notation, 그니까 **자바스크립트의 Object 타입을 닮은 하나의 형식**이다. 닮았으니까 변환하기도 쉽다. 
 
 <br>
 
@@ -69,11 +71,15 @@ JSON에 **다양한 정보를 쉽게 담을 수 있고**, JSON으로부터 **정
 ## 그래서 진짜 뭔데?
 JSON이 뭐냐고? JSON은 **string** 형태로 존재한다. 
 그니까 **JavaScript의 Object의 형식을 빌린 string**일 뿐이다. 전송하기 위해서는 string 형태여야 한다.
-![](https://64.media.tumblr.com/52c770445274c5da2d05c639a07a935e/tumblr_nfa440YMMU1tq4of6o1_500.gif)(아..알겠다..!)
+![](https://64.media.tumblr.com/52c770445274c5da2d05c639a07a935e/tumblr_nfa440YMMU1tq4of6o1_500.gif)
+(아..알겠다..!)
+
 <br>
 
 ## 어떻게 쓰는데?
-그럼 이 string을 어디선가 받아왔다고 치자. **이걸로 뭘 할 수 있을까?** 정보가 담겨있는 string이니까 정보에 접근해야 할 거다. **정보에 어떻게 접근할 수 있을까?** ![](https://media0.giphy.com/media/3orif6MDn5Osyps0HC/giphy.gif?cid=82a1493blpbao9gva4tuo3232zol3jptdogei3pqj4lqeo39&rid=giphy.gif&ct=g)매번 `console.log`로 찍어서 눈으로 확인해야 할까?
+그럼 이 string을 어디선가 받아왔다고 치자. **이걸로 뭘 할 수 있을까?** 정보가 담겨있는 string이니까 정보에 접근해야 할 거다. **정보에 어떻게 접근할 수 있을까?** 
+![](https://media0.giphy.com/media/3orif6MDn5Osyps0HC/giphy.gif?cid=82a1493blpbao9gva4tuo3232zol3jptdogei3pqj4lqeo39&rid=giphy.gif&ct=g)
+매번 `console.log`로 찍어서 눈으로 확인해야 할까?
 아니면 string의 문자를 하나하나 돌면서 **key**와 **value**를 구분해내는 코드를 작성할 수도 있을 거다.
 
 다행히 이 string은 **Object과 닮았기 때문에 Object로 변환하기도 쉽다.** 
