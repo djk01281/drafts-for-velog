@@ -45,6 +45,12 @@ a.then(()=>console.log("first"))
 
 “*asyncrhonous한 함수가 **promise를 return하게** 만들면”* 이라고 했는데, 어떻게 그렇게 만들 수 있을까?
 
+2단계로 나눌 수 있다.
+1. Promise를 만든다.
+2. 함수가 Promise를 return하게 만든다.
+
+일단 **첫 번째 단계**부터 해결하자.
+
 ```jsx
 new Promise((resolve, reject) => {
 //asynchronous한 무언가를 한다.
@@ -97,6 +103,23 @@ new Promise로 만든 이 함수도 무언가를 return하고 싶어할 것이�
 `.then`이나 `.catch`에서 이 값을 받아서 그 다음에 실행하고 싶은 코드를 실행해주면 된다.
 
 <br>
+
+**2번째 단계**였던, 우리의 함수가 Promise를 return하게 만드는 건 간단하다.
+
+```jsx
+function ourFunction(arg1, arg2){
+    const workDone = someAsyncWork(arg1, arg2); //이 부분이 asynchronous한 작업이라고 가정하자.
+    
+    return new Promise((resolve, reject)=>{
+        if(잘해결됐다면){resolve(workDone);}
+        else{reject('무언가 잘못됐어!')}
+    })
+}
+
+```
+비동기 처리를 하고 Promise를 만들어서 return하면 된다!
+
+
 
 ## 이게 끝이야?
 
