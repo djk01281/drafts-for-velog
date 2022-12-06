@@ -104,6 +104,8 @@ new Promise로 만든 이 함수도 무언가를 return하고 싶어할 것이�
 
 <br>
 
+## Promise를 return하는 함수
+
 **2번째 단계**였던, 우리의 함수가 Promise를 return하게 만드는 건 간단하다.
 
 ```jsx
@@ -119,7 +121,18 @@ function ourFunction(arg1, arg2){
 ```
 비동기 처리를 하고 Promise를 만들어서 return하면 된다!
 
+_근데 Promise를 return한다는 게 무슨 뜻일까?_
 
+위의 `ourFunction`을 불러보자.
+
+```jsx
+ourFunction(someArg1, someArg2)
+.then((result) => console.log(`Result: ${result}`))
+.catch((error) => console.log (`Error/: ${error}`))
+```
+
+`ourFunction`은 result나 error를 반환하는 게 아니다.
+그것들을 **반환하겠다는 promise**, 약속을 반환한다.
 
 ## 이게 끝이야?
 
