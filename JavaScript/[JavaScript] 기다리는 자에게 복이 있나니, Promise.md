@@ -70,7 +70,7 @@ new Promise((resolve, reject) => {
 
 ![](https://www.freecodecamp.org/news/content/images/2020/06/Ekran-Resmi-2020-06-06-12.21.27.png)
 
-promise가 resolve될 경우에 아까 봤던 **.then()**을, reject될 경우에는 **.catch()**를 실행시켜준다.
+promise가 resolve될 경우에 아까 봤던 `.then()`을, reject될 경우에는 `.catch()`를 실행시켜준다.
 
 *이게 뭔 소릴까?*
 
