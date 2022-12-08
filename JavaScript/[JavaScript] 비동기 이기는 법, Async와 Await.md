@@ -2,8 +2,11 @@
 **자바스크립트 시리즈:**
 
 [**[JavaScript] 🛒JSON, 어디까지 알아보고 오셨어요?**](https://velog.io/@djk01281/JSON-어디까지-알아보고-오셨어요-ptpanx2n)
+
 [**[JavaScript] 동기적인(Synchronous) 콜백(callback)함수도 있을까?**](https://velog.io/@djk01281/Synchronous한-콜백함수도-있을까)
+
 [** [JavaScript] 기다리는 자에게 복이 있나니, Promise**](https://velog.io/@djk01281/Promise-뭘-약속한다는-거야)
+
 [**[JavaScript] 비동기 이기는 법, Async와 Await.**](https://velog.io/@djk01281/JavaScript-Async와-Await)
 
 
@@ -138,8 +141,11 @@ for (let doc of docs) {
 **자바스크립트 시리즈:**
 
 [**[JavaScript] 🛒JSON, 어디까지 알아보고 오셨어요?**](https://velog.io/@djk01281/JSON-어디까지-알아보고-오셨어요-ptpanx2n)
+
 [**[JavaScript] 동기적인(Synchronous) 콜백(callback)함수도 있을까?**](https://velog.io/@djk01281/Synchronous한-콜백함수도-있을까)
+
 [** [JavaScript] 기다리는 자에게 복이 있나니, Promise**](https://velog.io/@djk01281/Promise-뭘-약속한다는-거야)
+
 [**[JavaScript] 비동기 이기는 법, Async와 Await.**](https://velog.io/@djk01281/JavaScript-Async와-Await)
 
 <br>
